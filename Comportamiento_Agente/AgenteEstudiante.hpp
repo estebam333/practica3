@@ -85,7 +85,6 @@ private:
 
     double heuristicaPrueba(const Tablero& tablero);
     double heuristica1(const Tablero& tablero);
-    double heuristica2(const Tablero& tablero);
 
 
 };
