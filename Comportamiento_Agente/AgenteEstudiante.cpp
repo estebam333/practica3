@@ -30,7 +30,7 @@ std::pair<int, int> AgenteEstudiante::think(const Tablero& tablero) {
     case ModoJuego::STATUS:
     {
         Resultado resultado = Status(tablero, mejor);
-        if (resultado == Resultado::VICTORIA) std:  :cout << "VICTORIA ";
+        if (resultado == Resultado::VICTORIA) std::cout << "VICTORIA ";
         else if (resultado == Resultado::DERROTA) std::cout << "DERROTA ";
         else std::cout << "EMPATE ";
         return mejor;
